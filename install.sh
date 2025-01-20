@@ -137,7 +137,8 @@ fi
 
 Path=${1:-rustlings/}
 echo "Cloning Rustlings at $Path..."
-git clone -q https://github.com/rust-lang/rustlings "$Path"
+#git clone -q https://github.com/rust-lang/rustlings "$Path"
+git clone -q git@github.com:rust-lang/rustlings.git "$Path"
 
 cd "$Path"
 
